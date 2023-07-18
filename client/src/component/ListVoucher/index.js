@@ -26,11 +26,11 @@ const ListVoucher = ({
       </h3>
       {newVcr ? (
         <div
-          class="alert alert-success alert-dismissible fade show d-flex justify-content-between mt-3"
+          className="alert alert-success alert-dismissible fade show d-flex justify-content-between align-items-center mt-3"
           role="alert"
           style={{ padding: 15 }}
         >
-          <div>
+          <div style={{ width: "90%" }}>
             Anda mendapatkan voucher diskon 10rb. Gunakan sebelum tanggal
             kadaluarsa.
           </div>

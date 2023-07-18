@@ -85,7 +85,7 @@ const CardProduct = ({
           <InputComp jmlh={jmlh} setJmlh={setJmlh} />
           {voucherById.kode ? (
             <div
-              class="alert alert-success alert-dismissible fade show d-flex justify-content-between mt-3"
+              className="alert alert-success alert-dismissible fade show d-flex justify-content-between mt-3"
               role="alert"
               style={{ padding: 15 }}
             >
