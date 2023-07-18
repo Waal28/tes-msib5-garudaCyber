@@ -1,0 +1,24 @@
+GET http://localhost:3001/voucher
+
+###
+POST http://localhost:3001/voucher
+Content-Type: application/json
+
+{
+    "kode": "VCR1155",
+    "diskon": 10000,
+    "expired":"2023-07-19T01:43:13.763Z"
+}
+
+###
+PATCH  http://localhost:3001/voucher/64b64a985085ae765918c067
+Content-Type: application/json
+
+{
+    "kode": "VCR3094",
+    "diskon": 10000,
+    "expired": "2023-07-19T08:17:28.256Z"
+}
+
+###
+DELETE http://localhost:3001/voucher/64b55542b7f9b094f49d7b06
