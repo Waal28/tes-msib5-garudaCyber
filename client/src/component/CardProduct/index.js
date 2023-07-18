@@ -57,6 +57,8 @@ const CardProduct = ({
     if (total >= 2000000) {
       postData(voucher);
       setNewVcr(true);
+    } else {
+      setNewVcr(false);
     }
     if (voucherById.kode) {
       deleteData(voucherById._id);
